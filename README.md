@@ -20,7 +20,7 @@ Chalah's Travels is a geo-spatial web application that helps users discover loca
 ======
 
 ## How It Works 💡
-1. Select Your Dietary Preferences**: Choose from a list of dietary restrictions (e.g., halal, vegan, gluten-free).
+1. Select Your Dietary Preferences: Choose from a list of dietary restrictions (e.g., halal, vegan, gluten-free).
 2. Find Restaurants Near You: Enter your zip code. The app uses geo-location to find restaurants in your area.
 3. View Compatible Dishes: Menu-scanning algorithms highlight dishes that meet your dietary requirements.
 4. Read Reviews: Get insights based on reviews from other users with similar dietary needs.
