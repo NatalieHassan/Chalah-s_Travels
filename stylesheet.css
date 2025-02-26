@@ -25,6 +25,14 @@
   font-weight: bold;
 }
 
+
+/* Custom Main Content Styles */
+.placeholder-text::before {
+  content: "Future text will go here";
+  color: #999; /* Light grey color */
+  font-style: italic;
+}
+
 /* Custom Footer Styles */
 .custom-footer {
   background: linear-gradient(to right, #4CAF50, #81C784); /* Green gradient */
