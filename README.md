@@ -1,5 +1,5 @@
 ## Screenshot
-![Chalah's Travels Logo](image.png)
+![Chalah's Travels Logo]![image](https://github.com/user-attachments/assets/8e3c0477-4b5a-4348-9df8-1902a99094c0)
 
 
 ## Chalah'sTravels 🌍
