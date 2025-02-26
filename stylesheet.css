@@ -34,14 +34,22 @@
 
 
 /* Custom Main Content Styles */
+
+.placeholder {
+  width: 100%; /* Adjust as needed */
+  height: 250px; /* Adjust as needed */
+  background-color: #f0f0f0; /* Optional: Add a background color */
+  border: 1px dashed #ccc; /* Optional: Add a border for visibility */
+}
+
+
 .placeholder-text::before {
   content: "Future text will go here";
   color: #999; /* Light grey color */
   font-style: italic;
 }
 
-
-
+/* Custom Button Styles */
 
 /* Search Container */
 .search-container {
