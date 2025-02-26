@@ -1,3 +1,10 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Custom Header Styles */
 .custom-header {
   background: linear-gradient(to right, #4CAF50, #81C784); /* Green gradient */
@@ -31,6 +38,63 @@
   content: "Future text will go here";
   color: #999; /* Light grey color */
   font-style: italic;
+}
+
+
+
+
+/* Search Container */
+.search-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Search Form */
+form {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Search Input */
+.search-input {
+  flex: 1;
+  padding: 12px 20px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.search-input::placeholder {
+  color: #999;
+}
+
+/* Search Button */
+.search-button {
+  padding: 12px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+/* SVG Icon */
+.search-button svg {
+  width: 20px;
+  height: 20px;
 }
 
 /* Custom Footer Styles */
