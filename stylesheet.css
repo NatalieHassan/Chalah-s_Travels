@@ -49,7 +49,52 @@
   font-style: italic;
 }
 
-/* Custom Button Styles */
+/* User Email Styles */
+.user-email-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.user-email-container h1 {
+  text-align: center;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+/* User Details */
+.user-details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 4px;
+  border: 1px solid #eee;
+}
+
+.detail-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.detail-value {
+  color: #555;
+}
+
+
+
+
+
 
 /* Search Container */
 .search-container {
@@ -111,6 +156,8 @@ form {
   color: white;
   text-align: left;
   padding: 20px 0;
+  position: relative;
+  bottom: 0;
 }
 
 .custom-footer ul {
