@@ -1,0 +1,54 @@
+/* Custom Header Styles */
+.custom-header {
+  background: linear-gradient(to right, #4CAF50, #81C784); /* Green gradient */
+  color: white;
+  text-align: left;
+  padding: 20px 0;
+}
+
+.custom-header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.custom-header nav ul li {
+  display: inline;
+}
+
+.custom-header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Custom Footer Styles */
+.custom-footer {
+  background: linear-gradient(to right, #4CAF50, #81C784); /* Green gradient */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.custom-footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.custom-footer ul li {
+  display: inline;
+}
+
+.custom-footer ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+```
