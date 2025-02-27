@@ -47,6 +47,7 @@
   content: "Future text will go here";
   color: #999; /* Light grey color */
   font-style: italic;
+  
 }
 
 /* User Email Styles */
@@ -155,7 +156,7 @@ form {
   background: linear-gradient(to right, #4CAF50, #81C784); /* Green gradient */
   color: white;
   text-align: left;
-  padding: 20px 0;
+  padding: 10px 0;
   position: relative;
   bottom: 0;
 }
