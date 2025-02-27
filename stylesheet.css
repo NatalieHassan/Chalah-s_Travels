@@ -1,3 +1,10 @@
+* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Custom Header Styles */
 .custom-header {
   background: linear-gradient(to right, #4CAF50, #81C784); /* Green gradient */
