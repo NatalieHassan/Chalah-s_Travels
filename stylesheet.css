@@ -5,9 +5,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --green-gradient: linear-gradient(to right, #4CAF50, #81C784);
+}
+
 /* Custom Header Styles */
 .custom-header {
-  background: linear-gradient(to right, #4CAF50, #81C784); /* Green gradient */
+  background: var(--green-gradient); /* Green gradient */
   color: white;
   text-align: left;
   padding: 20px 0;
@@ -31,6 +35,19 @@
   text-decoration: none;
   font-weight: bold;
 }
+/* Hover effect  & media querie */
+.custom-header nav ul li a:hover {
+  color: #ffeb3b;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .custom-header nav ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+}
 
 
 /* Custom Main Content Styles */
@@ -38,10 +55,14 @@
 .placeholder {
   width: 100%; /* Adjust as needed */
   height: 250px; /* Adjust as needed */
-  background-color: #f0f0f0; /* Optional: Add a background color */
-  border: 1px dashed #ccc; /* Optional: Add a border for visibility */
+  background-color: #f0f0f0;/* Optional: Add a background color */
+  border: 1px dashed #ccc;/* Optional: Add a border for visibility */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #999;
+  font-style: italic;
 }
-
 
 .placeholder-text::before {
   content: "Future text will go here";
@@ -82,6 +103,10 @@
   border-radius: 4px;
   border: 1px solid #eee;
 }
+.detail-item:hover {
+  background-color: #e0e0e0;
+  transition: background-color 0.3s ease;
+}
 
 .detail-label {
   font-weight: bold;
@@ -93,15 +118,12 @@
 }
 
 
-
-
-
-
 /* Search Container */
 .search-container {
   width: 100%;
   max-width: 400px;
   margin: 0 auto;
+  padding: 20px;
 }
 
 /* Search Form */
@@ -122,6 +144,10 @@ form {
   outline: none;
   font-size: 16px;
   background-color: transparent;
+}
+.search-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
 .search-input::placeholder {
@@ -145,15 +171,10 @@ form {
   background-color: #0056b3;
 }
 
-/* SVG Icon */
-.search-button svg {
-  width: 20px;
-  height: 20px;
-}
 
 /* Custom Footer Styles */
 .custom-footer {
-  background: linear-gradient(to right, #4CAF50, #81C784); /* Green gradient */
+  background: var(--green-gradient); /* Green gradient */
   color: white;
   text-align: left;
   padding: 10px 0;
@@ -178,4 +199,8 @@ form {
   color: white;
   text-decoration: none;
   font-weight: bold;
+}
+.custom-footer ul li a:hover {
+  color: #ffeb3b;
+  text-decoration: underline;
 }
