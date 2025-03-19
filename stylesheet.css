@@ -48,7 +48,11 @@
     align-items: center;
   }
 }
-
+.hero-section {
+  background: var(--green-gradient); /* Green gradient */
+  background-size: cover;
+  padding: 4rem 0;
+}
 
 /* Custom Main Content Styles */
 
